@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    background: gray;
+    text-align: center;
+    margin: auto;
+}
+
+
+li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em;
+}
+
+li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+#greet{
+    text-align: start;
+    padding-left: 6em;
+    line-height: 2.6em;
+    background: black;
+    color: white;
+    padding: 10rem;
+    font-size: 1.2em;
+}
+
+.web{
+    /* color:red; */
+    font-stretch: expanded;
+    font-family: sans-serif;
+    font-style: inherit;
+}
+
+.nug{
+    /* color: red; */
+    font-style: italic;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info{
+    font-family: monospace;
+}
+
+button{
+    padding: 1em;
+    background: gray;
+}
+
+button a{
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+#after{
+    padding: 6em;
+    line-height: 2em;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#form{
+    background: gold;
+    padding: 6em;
+    line-height: 2em;
+}
+
+#about{
+
+    text-align: center;
+    background-position: top;
+    background-size: cover;
+    padding: 2em;
+}
+
+img{
+    width: 60%;
+    height: 10%;
+}
+
+footer{
+    position: relative;
+    background: black;
+    color: white;
+    padding: 2em;
+    text-align: center;
+    /* margin-top: 6em; */
+}
